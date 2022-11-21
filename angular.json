@@ -23,7 +23,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/reset.css",
+              "src/assets/css/style.css",
+              "src/assets/css/_grid.css",
+              "src/assets/css/_glyphicons.css"
             ],
             "scripts": []
           },
