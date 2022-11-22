@@ -1,0 +1,188 @@
+{
+  "hero": [
+    {
+      "id": 1,
+      "nom": "Genji",
+      "age": 35,
+      "pouvoir": "Cyborg Ninja",
+      "citation": "Mon katana est au service du bien!",
+      "photo": "Genji_portrait.png"
+    },
+    {
+      "id": 2,
+      "nom": "Mccree",
+      "age": 37,
+      "pouvoir": "Colt .45",
+      "citation": "Je suis le roi des duels au soleil.",
+      "photo": "Mccree_portrait.png"
+    },
+    {
+      "id": 3,
+      "nom": "Phara",
+      "age": 32,
+      "pouvoir": "Vol et tire des roquettes",
+      "citation": "Place au déluge de la justice!",
+      "photo": "Pharah_portrait.png"
+    },
+    {
+      "id": 4,
+      "nom": "Reaper",
+      "age": 51,
+      "pouvoir": "Réserve infinie de fusils à pompes",
+      "citation": "Je suis le faucheur...",
+      "photo": "Reaper_portrait.png"
+    },
+    {
+      "id": 5,
+      "nom": "Soldier76",
+      "age": 53,
+      "pouvoir": "Viseur tactique",
+      "citation": "La guerre ne s'arrète jamais.",
+      "photo": "Soldier76_portrait.png"
+    },
+    {
+      "id": 6,
+      "nom": "Sombra",
+      "age": 30,
+      "pouvoir": "Hackeuse surdouée",
+      "citation": "Boop!",
+      "photo": "Sombra_portrait.png"
+    },
+    {
+      "id": 7,
+      "nom": "Tracer",
+      "age": 26,
+      "pouvoir": "Contrôle spatio temporel limité",
+      "citation": "Je suis toujours à l'heure ;)",
+      "photo": "Tracer_portrait.png"
+    },
+    {
+      "id": 8,
+      "nom": "Bastion",
+      "age": 30,
+      "pouvoir": "Mitrailleuse lourde sur pattes",
+      "citation": "Beep boop bip bip booooop!",
+      "photo": "Bastion_portrait.png"
+    },
+    {
+      "id": 9,
+      "nom": "Hanzo",
+      "age": 38,
+      "pouvoir": "Arcs et flèches améliorés",
+      "citation": "Je suis le dragon!",
+      "photo": "Hanzo_portrait.png"
+    },
+    {
+      "id": 10,
+      "nom": "Junkrat",
+      "age": 25,
+      "pouvoir": "Immunité aux explosions et lance grenade",
+      "citation": "On va tout faire péter!",
+      "photo": "Junkrat_portrait.png"
+    },
+    {
+      "id": 11,
+      "nom": "Mei",
+      "age": 101,
+      "pouvoir": "Cryostase et contrôle de la glace",
+      "citation": "Je ne voudrai pas jeter un froid...",
+      "photo": "Mei_portrait.png"
+    },
+    {
+      "id": 12,
+      "nom": "Torbjörn",
+      "age": 57,
+      "pouvoir": "Constructeur de génie",
+      "citation": "Pour la dernière fois, je suis suédois!",
+      "photo": "Torbjorn_portrait.png"
+    },
+    {
+      "id": 13,
+      "nom": "Widowmaker",
+      "age": 33,
+      "pouvoir": "Sniper d'élite",
+      "citation": "Une balle, un mort!",
+      "photo": "Widowmaker_portrait.png"
+    },
+    {
+      "id": 14,
+      "nom": "D.Va",
+      "age": 19,
+      "pouvoir": "Conductrice de Meka",
+      "citation": "Place aux jeunes!",
+      "photo": "Dva_portrait.png"
+    },
+    {
+      "id": 15,
+      "nom": "Reinhart",
+      "age": 61,
+      "pouvoir": "Chevalier en armure",
+      "citation": "Pour l'honneur et la justice!!!",
+      "photo": "Reinhardt_portrait.png"
+    },
+    {
+      "id": 16,
+      "nom": "Roadhod",
+      "age": 48,
+      "pouvoir": "Apocalypse ambulante",
+      "citation": "Viens par ici que je te montre qui est le boss!",
+      "photo": "Roadhog_portrait_m.png"
+    },
+    {
+      "id": 17,
+      "nom": "Winston",
+      "age": 17,
+      "pouvoir": "Scientifique en jetpack",
+      "citation": "La science est le moteur de l'humanité",
+      "photo": "Winston_portrait.png"
+    },
+    {
+      "id": 18,
+      "nom": "Zarya",
+      "age": 28,
+      "pouvoir": "Fusil laser lourd",
+      "citation": "Pour la mère patrie!",
+      "photo": "Zarya_portrait.png"
+    },
+    {
+      "id": 19,
+      "nom": "Ana",
+      "age": 60,
+      "pouvoir": "Fusil sniper bionique",
+      "citation": "Bat toi pour tes idéaux!",
+      "photo": "Ana_portrait.png"
+    },
+    {
+      "id": 20,
+      "nom": "Lucio",
+      "age": 26,
+      "pouvoir": "DJ en roller",
+      "citation": "Je m'invites à la fête!",
+      "photo": "Lucio_portrait.png"
+    },
+    {
+      "id": 21,
+      "nom": "Mercy",
+      "age": 37,
+      "pouvoir": "Ange gardien",
+      "citation": "Ha, les miracles de la science moderne...",
+      "photo": "Mercy_portrait.png"
+    },
+    {
+      "id": 22,
+      "nom": "Syymetra",
+      "age": 28,
+      "pouvoir": "Rends la lumière solide",
+      "citation": "Bienvenue dans ma réalité...",
+      "photo": "Symmetra_portrait.png"
+    },
+    {
+      "id": 23,
+      "nom": "Zenyatta",
+      "age": 20,
+      "pouvoir": "Grand sage",
+      "citation": "Votre véritable pouvoir est en vous!",
+      "photo": "Zenyatta_portrait.png"
+    }
+  ]
+}

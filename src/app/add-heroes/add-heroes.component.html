@@ -64,39 +64,57 @@
                         </nav>
                     </div>
 
-                    <!-- Home -->
+                    <!-- Nouveau Hero -->
                     <div class="col-xs-12 col-sm-9">
-                        <div class="content" id="content_home">
-                            <h1 class="page-title">Bienvenue à la base des Héros !</h1>
+                        <div class="content" id="new_hero">
 
-                            <!-- Héros disponibles -->
+                            <h1 class="page-title">Nouvelle candidature</h1>
                             <section class="section">
-                                <h2 class="title">~ Nos héros disponibles ~</h2>
-                                <div class="heroes row">
-                                    <div class="col-xs-6 col-sm-3 hero" *ngFor="let heros of listeHeros">
-                                        <a href="hero_details.html">
-                                            <img src="assets/images/{{heros.photo}}" alt="{{heros.nom}}" height="175" width="150">
-                                            <div class="bot">
-                                                <p class="name">{{heros.nom}}</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </section>
+                                <form (ngSubmit)="saveHeros()">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <p class="line">
+                                                <label for="">Quel est votre nom de héro?</label>
+                                                <input [(ngModel)]="heros.nom" name="nom" type="text" class="mb0 wide" required>
+                                            </p>
+                                            <p class="line">
+                                                <label for="">Quel âge avez vous?</label>
+                                                <input [(ngModel)]="heros.age" name="age" type="number" class="mb0 wide" required>
+                                            </p>
+                                            <p class="line">
+                                                <label for="">Quel est votre pouvoir?</label>
+                                                <input [(ngModel)]="heros.pouvoir" name="pouvoir" type="text" class="mb0 wide" required>
+                                            </p>
+                                            <p class="line">
+                                                <label for="">Quel est votre citation de référance?</label>
+                                                <input [(ngModel)]="heros.citation" name="citation"  type="text" class="mb0 wide" required>
+                                            </p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p class="line">
+                                                <label for="">Photo du héro</label>
+                                                <input type="file" [(ngModel)]="heros.photo" name="photo" id="photo" (change)="onFileSelected($event)" class="mb0">
+                                            </p>
+                                            <p class="line ac">
+                                                <img class="current_img" src="assets/images/hero_img_placeholder.png" alt="Visuel hero" width="200" height="200">
+                                            </p>
+                                        </div>
+                                        <div class="col-xs-12">
+                                            <div class="hr mt2 mb2"></div>
+                                        </div>
 
-                            <!-- Nouveau héro -->
-                            <section class="section newhero">
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <p class="c">Vous êtes un héro? Rejoingez nous!</p>
-                                        <p class="b">
-                                            <a href="#" [routerLink]="['/add']" class="btn btn_color1">
-                                                <span class="glyphicon glyphicon-plus-sign"></span>
-                                                <span>Créez un nouveau héro !</span>
-                                            </a>
-                                        </p>
+                                        <div class="col-xs-12 ac">
+                                            <button type="submit" class="btn btn_color3 recette_save"><span class="glyphicon glyphicon-ok mr0"></span><span>Valider ma candidature</span></button>
+                                        </div>
+                                        <!-- Afficher au clic sur "valider ma recette" lorsque tout s'est bien déroulé -->
+                                        <!--<div class="col-xs-12">
+                                            <p class="ac mt2 tb">
+                                                <span class="glyphicon glyphicon-thumbs-up color3"></span>
+                                                <span>Votre recette a bien été ajoutée !</span>
+                                            </p>
+                                        </div>-->
                                     </div>
-                                </div>
+                                </form>
                             </section>
                         </div>
                     </div>
