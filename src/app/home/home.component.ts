@@ -1,5 +1,6 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Hero } from '../hero.model';
 import { HeroesService } from '../heroes.service';
 
 @Component({
@@ -19,7 +20,7 @@ export class HomeComponent implements OnInit {
 
   public getHeroes(): void {
     this.heroesService.getHeroes().subscribe(
-      (response: any[]) => {
+      (response: Hero[]) => {
         this.listeHeros = response;
       },
       (error: HttpErrorResponse) => {

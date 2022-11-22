@@ -7,12 +7,14 @@ import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AddHeroesComponent } from './add-heroes/add-heroes.component';
 import { FormsModule } from '@angular/forms';
+import { DetailsComponent } from './details/details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AddHeroesComponent
+    AddHeroesComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,

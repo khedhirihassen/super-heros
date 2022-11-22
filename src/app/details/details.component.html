@@ -27,7 +27,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <a href="home.html" class="logo">
+                        <a href="#" [routerLink]="['']" class="logo">
                             <img src="assets/images/herohqbanner.png" alt="" width="350" height="130">
                         </a>
                         <div class="desc">
@@ -53,7 +53,7 @@
                         <nav id="nav">
                             <ul class="menu">
                                 <li class="page_hom">
-                                    <a href="home.html">
+                                    <a href="#" [routerLink]="['']">
                                         <span>Accueil</span>
                                     </a>
                                 </li>
@@ -64,37 +64,25 @@
                         </nav>
                     </div>
 
-                    <!-- Home -->
+                    <!-- Hero Details -->
                     <div class="col-xs-12 col-sm-9">
-                        <div class="content" id="content_home">
-                            <h1 class="page-title">Bienvenue à la base des Héros !</h1>
+                        <div class="content" id="hero_details">
+                            <h1 class="page-title">Un héro en détail</h1>
 
-                            <!-- Héros disponibles -->
-                            <section class="section">
-                                <h2 class="title">~ Nos héros disponibles ~</h2>
-                                <div class="heroes row">
-                                    <div class="col-xs-6 col-sm-3 hero" *ngFor="let heros of listeHeros">
-                                        <a href="#" [routerLink]="['/detail/',heros.id]">
-                                            <img src="assets/images/{{heros.photo}}" alt="{{heros.nom}}" height="175" width="150">
-                                            <div class="bot">
-                                                <p class="name">{{heros.nom}}</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </section>
-
-                            <!-- Nouveau héro -->
-                            <section class="section newhero">
+                            <section class="section details">
                                 <div class="row">
-                                    <div class="col-xs-12">
-                                        <p class="c">Vous êtes un héro? Rejoingez nous!</p>
-                                        <p class="b">
-                                            <a href="#" [routerLink]="['/add']" class="btn btn_color1">
-                                                <span class="glyphicon glyphicon-plus-sign"></span>
-                                                <span>Créez un nouveau héro !</span>
-                                            </a>
-                                        </p>
+                                    <div class="col-vxs-12 col-xs-6 col-sm-5">
+                                        <div class="avatar-wrap">
+                                            <img class="avatar" src="assets/images/{{hero.photo}}" alt="{{hero.nom}}">
+                                        </div>
+                                    </div>
+                                    <div class="col-vxs-12 col-xs-6 col-sm-7">
+                                        <div class="infos">
+                                            <h1 class="name">{{hero.nom}}</h1>
+                                            <p><span><span class="fwb">Citation :</span> {{hero.citation}}</span></p>
+                                            <p><span><span class="fwb">Âge :</span> {{hero.age}}</span></p>
+                                            <p><span><span class="fwb">Pouvoir :</span> {{hero.pouvoir}}</span></p>
+                                        </div>
                                     </div>
                                 </div>
                             </section>
@@ -115,7 +103,7 @@
 
                         <p>Le QG des héros est situé 8 avenue de la Justice. Tél: 06.65.59.66.30.30 Mail: ausecours@hero.com</p>
 
-                        <a href="home.html" class="btn btn_color1">
+                        <a href="#" [routerLink]="['']" class="btn btn_color1">
                             <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
                             Revenir à l'acceuil
                         </a>
