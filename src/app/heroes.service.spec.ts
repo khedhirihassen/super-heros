@@ -25,20 +25,19 @@ describe('HeroesService', () => {
     expect(service).toBeTruthy();
   });
 
-  it('getAll should make a GET HTTP request and return all data items', () => {
+  it('get all heroes in json file', () => {
     service.getHeroes().subscribe(res => {
       expect(res.length).toEqual(24);
      });
    });
 
-   it('getById should make a GET HTTP request with id appended to end of url', () => {
+   it('get By Id Hero', () => {
     service.get(1).subscribe(res => {
       expect(res.nom).toEqual('Genji'); 
      }); 
    });
-
-   /*
-   it('create should make a POST HTTP request with resource as body', () => {
+   
+   it('Creer un hero', () => {
     const createObj = { nom: "TestName",
       age: 26,
       pouvoir: "pouvoir test",
@@ -48,6 +47,6 @@ describe('HeroesService', () => {
       expect(res.nom).toBe('TestName'); 
      }); 
     });
-*/
+
 
 });
